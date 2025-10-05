@@ -2,10 +2,12 @@ import { NgModule, provideBrowserGlobalErrorListeners } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { App } from './app';
+import { Documents } from './documents/documents';
 
 @NgModule({
   declarations: [
-    App
+    App,
+    Documents
   ],
   imports: [
     BrowserModule
